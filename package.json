@@ -1,0 +1,10 @@
+{
+  "name": "academic-assistant-dapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DApp académique décentralisée — blockchain, RAG, MetaMask — SAAD KORCHI",
+  "scripts": {
+    "dev:telegram": "npm run dev --prefix telegram-bot",
+    "setup:telegram": "powershell -ExecutionPolicy Bypass -File scripts/setup-telegram.ps1"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+dist/
+data/index.json
+data/index.json.tmp

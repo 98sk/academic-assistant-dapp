@@ -1,0 +1,244 @@
+/* DO NOT use @apply with custom theme utilities inside @layer components.
+   Use plain CSS below or standard Tailwind classes directly in JSX. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Deep marine navy palette */
+  --navy-950: 222 58% 9%;
+  --navy-900: 218 56% 13%;
+  --navy-800: 215 52% 18%;
+  --navy-700: 212 48% 24%;
+  --navy-600: 208 44% 30%;
+
+  --sky-300: 195 85% 72%;
+  --sky-400: 199 78% 52%;
+  --sky-500: 192 82% 46%;
+
+  /* Forest / emerald greens (MetaMask-adjacent) */
+  --green-950: 158 52% 12%;
+  --green-900: 158 50% 18%;
+  --green-800: 160 48% 24%;
+  --green-700: 160 52% 32%;
+  --green-600: 158 55% 38%;
+  --green-500: 160 52% 44%;
+  --green-400: 162 50% 50%;
+  --green-glow: 158 62% 42%;
+
+  --bg-app: 215 48% 22%;
+  --bg-app-deep: 218 56% 12%;
+  --bg-surface: 0 0% 100%;
+  --bg-surface-hover: 0 0% 100%;
+
+  --border-subtle: 0 0% 100%;
+
+  --text-primary: 210 35% 97%;
+  --text-muted: 210 22% 78%;
+
+  --accent: 192 82% 46%;
+  --accent-glow: 199 78% 55%;
+  --accent-soft: 195 85% 68%;
+  --ring: 158 55% 38%;
+
+  --success: 162 52% 40%;
+  --warning: 38 92% 50%;
+  --danger: 0 45% 48%;
+
+  /* Gradients — plain CSS only */
+  --gradient-bg: linear-gradient(
+    135deg,
+    hsl(218 56% 11%) 0%,
+    hsl(215 52% 16%) 35%,
+    hsl(210 48% 24%) 65%,
+    hsl(200 55% 38%) 100%
+  );
+  --gradient-accent: linear-gradient(135deg, hsl(var(--sky-400)), hsl(var(--accent)));
+  --gradient-btn-primary: linear-gradient(
+    135deg,
+    hsl(var(--green-900)) 0%,
+    hsl(var(--green-700)) 55%,
+    hsl(var(--green-600)) 100%
+  );
+  --gradient-btn-success: linear-gradient(
+    135deg,
+    hsl(165 48% 28%) 0%,
+    hsl(var(--green-600)) 100%
+  );
+  --gradient-btn-accent: linear-gradient(135deg, hsl(var(--sky-400)), hsl(var(--accent)));
+  --gradient-text: linear-gradient(
+    135deg,
+    hsl(var(--sky-300)),
+    hsl(var(--green-400)),
+    hsl(var(--text-primary))
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100vh;
+}
+
+html {
+  color: hsl(var(--text-primary));
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "ss01";
+  color: hsl(var(--text-primary));
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.011em;
+  min-height: 100vh;
+  background-color: hsl(var(--navy-950));
+  background-image:
+    radial-gradient(ellipse 90% 70% at 0% 0%, hsl(var(--sky-400) / 0.12), transparent 55%),
+    radial-gradient(ellipse 70% 55% at 100% 10%, hsl(var(--green-glow) / 0.08), transparent 50%),
+    radial-gradient(ellipse 60% 45% at 50% 100%, hsl(var(--sky-300) / 0.1), transparent 55%),
+    var(--gradient-bg);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: hsl(var(--green-glow) / 0.35);
+  color: hsl(var(--text-primary));
+}
+
+/* Layout & surfaces — plain CSS, no custom @apply */
+.page-shell {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+}
+
+.glass-card {
+  border-radius: 1rem;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.1) inset,
+    0 8px 32px rgba(5, 15, 35, 0.35);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.glass-topbar {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(8, 18, 42, 0.55);
+  box-shadow: 0 4px 24px rgba(5, 15, 35, 0.3);
+}
+
+.glass-sidebar {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(8, 18, 42, 0.65);
+  box-shadow: 4px 0 32px rgba(5, 15, 35, 0.35);
+}
+
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: transparent;
+  background-image: var(--gradient-text);
+}
+
+.icon-gradient {
+  background-image: var(--gradient-btn-primary);
+  color: white;
+  box-shadow: 0 0 24px hsl(var(--green-glow) / 0.35);
+}
+
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.12) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-shimmer:hover::after {
+  opacity: 1;
+  animation: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-shimmer:hover::after {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+@layer utilities {
+  .animate-stagger-1 {
+    animation-delay: 0.05s;
+  }
+  .animate-stagger-2 {
+    animation-delay: 0.1s;
+  }
+  .animate-stagger-3 {
+    animation-delay: 0.15s;
+  }
+  .animate-stagger-4 {
+    animation-delay: 0.2s;
+  }
+  .animate-stagger-5 {
+    animation-delay: 0.25s;
+  }
+  .animate-stagger-6 {
+    animation-delay: 0.3s;
+  }
+}

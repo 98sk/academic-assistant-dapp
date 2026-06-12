@@ -1,0 +1,35 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "hardhat clean",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "grant-roles:local": "hardhat run scripts/grant-roles.ts --network localhost",
+    "seed:demo": "hardhat run scripts/seed-demo-activity.ts --network localhost",
+    "slither": "slither contracts/core --solc-remaps \"@openzeppelin=node_modules/@openzeppelin\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.10",
+    "@nomicfoundation/hardhat-node-test-runner": "^3.0.17",
+    "@nomicfoundation/hardhat-viem": "^3.0.6",
+    "@types/node": "^25.6.0",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1",
+    "viem": "^2.48.8"
+  }
+}

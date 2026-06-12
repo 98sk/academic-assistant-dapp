@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build & artifacts
+dist/
+build/
+cache/
+artifacts/
+typechain-types/
+coverage/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.localhost.template
+telegram-bot/.env
+backend/.env
+frontend/.env.local
+contracts/.env
+
+# Runtime data
+backend/.data/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+
+# RAG index (regenerated locally)
+rag/data/*.json
+!rag/data/.gitkeep
+
+# Telegram session data
+telegram-bot/data/*
+!telegram-bot/data/.gitkeep
+
+# Test & temp
+.tmp/
+temp/
+*.local

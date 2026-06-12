@@ -1,0 +1,65 @@
+{
+  "items": {
+    "0x89d41cc1b3b507c7bc5be4f1f9ca827dc19a3b83e2554770f7e3c67d032f8114": {
+      "id": "1",
+      "contentHash": "0x89d41cc1b3b507c7bc5be4f1f9ca827dc19a3b83e2554770f7e3c67d032f8114",
+      "title": "Devoir blockchain — remise 15 juin",
+      "body": "Merci de déposer votre rapport sur la plateforme DAA avant le 15 juin 2026 à 23h59. Le hash du PDF sera enregistré on-chain. Consignes : 8–12 pages, bibliographie IEEE.",
+      "category": "assignment",
+      "targetGroup": "cohort-a",
+      "publisher": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "createdAt": "2026-06-04T15:26:57.525Z",
+      "txHash": "0xf1c1b5f0e6c6f5933b41809f40eb71f75a5b5e019eabe802dee203b254f4ede0"
+    },
+    "0x0d4aea38ace80bb336a9c6ddfd6e1bcce6d1373b0e454a691114720f0fb96c79": {
+      "id": "2",
+      "contentHash": "0x0d4aea38ace80bb336a9c6ddfd6e1bcce6d1373b0e454a691114720f0fb96c79",
+      "title": "Examen final — session du 20 juin",
+      "body": "L'examen final (UE Sécurité & Blockchain) aura lieu le 20 juin 2026 de 14h00 à 16h30 en salle B204. Documents autorisés : une feuille A4 manuscrite recto-verso.",
+      "category": "exam",
+      "targetGroup": "cohort-a",
+      "publisher": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "createdAt": "2026-06-04T15:26:57.525Z",
+      "txHash": "0x156f67e0c49b7f4936744f982d3d2899fdd574c94e8abd9d97086d4b10838c88"
+    },
+    "0xf5b4106247cf18ff8c07e4bf48d03d0921408576702dff2bbd893006bfe865f7": {
+      "id": "3",
+      "contentHash": "0xf5b4106247cf18ff8c07e4bf48d03d0921408576702dff2bbd893006bfe865f7",
+      "title": "Info — horaires permanence prof",
+      "body": "Permanence pédagogique : mardis 10h–12h et jeudis 15h–17h (bureau 312). Pour les questions urgentes, utilisez le canal cohort-b sur la plateforme.",
+      "category": "info",
+      "targetGroup": "cohort-b",
+      "publisher": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "createdAt": "2026-06-04T15:26:57.525Z",
+      "txHash": "0x6fcac70f6ecde00dd6406d60440db41ae26387fcbfd7c9767d05f4b8486fdc3f"
+    },
+    "0xc309d4eead297ac23311e92c9852d813a3704e692ccd6b24111b855c78151b6d": {
+      "id": "7",
+      "contentHash": "0xc309d4eead297ac23311e92c9852d813a3704e692ccd6b24111b855c78151b6d",
+      "title": "Devoir blockchain — remise 15 juin",
+      "body": "Merci de déposer votre rapport sur la plateforme DAA avant le 15 juin 2026 à 23h59. Le hash du PDF sera enregistré on-chain.",
+      "category": "assignment",
+      "targetGroup": "cohort-a",
+      "publisher": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "createdAt": "2026-06-04T15:45:44.532Z",
+      "txHash": "0x6deb3efd58e78d92bc94a6580f0bdd6bdba6f436436a0b01e67bbe0a63568575"
+    },
+    "0x5735a77ab090b10665dd18431de51271fc0ae2b48410964e89e7a04169cb5d52": {
+      "id": "1",
+      "contentHash": "0x5735a77ab090b10665dd18431de51271fc0ae2b48410964e89e7a04169cb5d52",
+      "title": "devoir smart contract",
+      "body": "et aussi event tickets tp",
+      "category": "general",
+      "targetGroup": "donationPool tp",
+      "publisher": "0x7F48fa16c4535Bc00Ce6315E377F93787B95319F",
+      "createdAt": "2026-06-05T14:32:42.259Z",
+      "txHash": "0xce292f12f9216a3281ca6667043c21a1aa4fd7b073bb3ac3e2a1c4a235dae345"
+    }
+  },
+  "idIndex": {
+    "1": "0x5735a77ab090b10665dd18431de51271fc0ae2b48410964e89e7a04169cb5d52",
+    "2": "0x0d4aea38ace80bb336a9c6ddfd6e1bcce6d1373b0e454a691114720f0fb96c79",
+    "3": "0xf5b4106247cf18ff8c07e4bf48d03d0921408576702dff2bbd893006bfe865f7",
+    "7": "0xc309d4eead297ac23311e92c9852d813a3704e692ccd6b24111b855c78151b6d"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "nextId": 10,
+  "items": {
+    "1": {
+      "id": 1,
+      "filename": "sample-syllabus.pdf",
+      "storedFilename": "1-sample-syllabus.pdf",
+      "uploaderWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "uploadDate": "2026-05-29T13:33:21.158Z",
+      "txHash": "0x6eac7b6483eef39a697ae0e9071e6c5bb668e5025002cdda97ade55c0a0a1447",
+      "documentHash": "0x1dd2410d7714d82931e6a124d1980ec1a21dc051e8fab32ca1538a9f5686d454",
+      "documentType": "syllabus",
+      "targetGroup": "cohort-a"
+    },
+    "2": {
+      "id": 2,
+      "filename": "sample-syllabus-1780061865324.pdf",
+      "storedFilename": "2-sample-syllabus-1780061865324.pdf",
+      "uploaderWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "uploadDate": "2026-05-29T13:37:45.357Z",
+      "txHash": "0x146e9a014e8b9ac2a2af28976958be138dd1f8b2ba9084e450d854cfedfd13af",
+      "documentHash": "0xa80a07adfb88ab0674aabb1932d48bc24ef101ad2cf3898d6f38acfde2f29082",
+      "documentType": "syllabus",
+      "targetGroup": "cohort-a"
+    },
+    "3": {
+      "id": 3,
+      "filename": "sample-syllabus-1780061890001.pdf",
+      "storedFilename": "3-sample-syllabus-1780061890001.pdf",
+      "uploaderWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "uploadDate": "2026-05-29T13:38:10.024Z",
+      "txHash": "0xfdeae55238c9ad05bfd01ee52376d3b676c5f0f6656680695e8ef410a1c8ce5c",
+      "documentHash": "0x3e2090b0c9b58727e9d04350e62ae06e35f2b15d86956fd6f7e32f4c3b9b5d3f",
+      "documentType": "syllabus",
+      "targetGroup": "cohort-a"
+    },
+    "4": {
+      "id": 4,
+      "filename": "sample-syllabus-1780061899650.pdf",
+      "storedFilename": "4-sample-syllabus-1780061899650.pdf",
+      "uploaderWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "uploadDate": "2026-05-29T13:38:19.671Z",
+      "txHash": "0x6621d4d1008da5c6866a2ff74a44f72519b7f361e4b5f8d54fba20fc48e651b9",
+      "documentHash": "0xa750f451900fd7f20ce418179961aec7caf0c1f152fdd68f616645f5f7fd0397",
+      "documentType": "syllabus",
+      "targetGroup": "cohort-a"
+    },
+    "5": {
+      "id": 5,
+      "filename": "TP_3__Multiclass___Hyperparameter_Tuning_.pdf",
+      "storedFilename": "5-TP_3__Multiclass___Hyperparameter_Tuning_.pdf",
+      "uploaderWallet": "0x7F48fa16c4535Bc00Ce6315E377F93787B95319F",
+      "uploadDate": "2026-05-30T16:12:20.899Z",
+      "txHash": "0xab658452685e6bdf376ec11e2ec33639857888d0ece0160dc03cb3e81ab32d12",
+      "documentHash": "0xc1f0d7ce10e3d200649babf7f18a183c465f540f7e1a8c391cd1231683fe631e",
+      "documentType": "PDF",
+      "targetGroup": ""
+    },
+    "6": {
+      "id": 6,
+      "filename": "s3-p1 DFIR - Disk analysis.pdf",
+      "storedFilename": "6-s3-p1 DFIR - Disk analysis.pdf",
+      "uploaderWallet": "0x7F48fa16c4535Bc00Ce6315E377F93787B95319F",
+      "uploadDate": "2026-06-03T11:44:03.908Z",
+      "txHash": "0xb8004519ca070d6a5647bf604ce67881ecf4c48024f21236c2fcd7d6498116e3",
+      "documentHash": "0x5ec1b123a9c6a79159636ae232e96567b92b8dfc56caf3e991b497e0a3f87a0a",
+      "documentType": "PDF",
+      "targetGroup": ""
+    },
+    "7": {
+      "id": 7,
+      "filename": "sample-syllabus-1780586662500.pdf",
+      "storedFilename": "7-sample-syllabus-1780586662500.pdf",
+      "uploaderWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "uploadDate": "2026-06-04T15:24:22.584Z",
+      "txHash": "0xfc9066df99b7b8e26874feaefbe372231a0f701f05271a36ee65bba34707f685",
+      "documentHash": "0x5a7f6b376004ea203126dda9c61c4731b58080d0f911b5c05625435e684a7290",
+      "documentType": "syllabus",
+      "targetGroup": "cohort-a"
+    },
+    "8": {
+      "id": 8,
+      "filename": "sample-syllabus.pdf",
+      "storedFilename": "8-sample-syllabus.pdf",
+      "uploaderWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "uploadDate": "2026-06-04T15:33:39.317Z",
+      "txHash": "0xaed88257dcc932bb06665744aa40affb7c530f82a8355c12798e761cea518989",
+      "documentHash": "0xa80a07adfb88ab0674aabb1932d48bc24ef101ad2cf3898d6f38acfde2f29082",
+      "documentType": "PDF",
+      "targetGroup": ""
+    },
+    "9": {
+      "id": 9,
+      "filename": "sample-syllabus-1780587944472.pdf",
+      "storedFilename": "9-sample-syllabus-1780587944472.pdf",
+      "uploaderWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "uploadDate": "2026-06-04T15:45:44.503Z",
+      "txHash": "0x150b06b23ff7d5aa021baee63c87adf8d49fa957660b67ad05c091eb50772a7c",
+      "documentHash": "0xef931104f93493f572542788fb22aee6630cc6b67f06d48849379a870f4adb3f",
+      "documentType": "syllabus",
+      "targetGroup": "cohort-a"
+    }
+  }
+}

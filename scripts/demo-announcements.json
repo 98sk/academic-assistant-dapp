@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Devoir blockchain — remise 15 juin",
+    "body": "Merci de déposer votre rapport sur la plateforme DAA avant le 15 juin 2026 à 23h59. Le hash du PDF sera enregistré on-chain. Consignes : 8–12 pages, bibliographie IEEE.",
+    "category": "assignment",
+    "targetGroup": "cohort-a"
+  },
+  {
+    "title": "Examen final — session du 20 juin",
+    "body": "L'examen final (UE Sécurité & Blockchain) aura lieu le 20 juin 2026 de 14h00 à 16h30 en salle B204. Documents autorisés : une feuille A4 manuscrite recto-verso.",
+    "category": "exam",
+    "targetGroup": "cohort-a"
+  },
+  {
+    "title": "Info — horaires permanence prof",
+    "body": "Permanence pédagogique : mardis 10h–12h et jeudis 15h–17h (bureau 312). Pour les questions urgentes, utilisez le canal cohort-b sur la plateforme.",
+    "category": "info",
+    "targetGroup": "cohort-b"
+  }
+]
